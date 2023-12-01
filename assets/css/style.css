@@ -1,0 +1,236 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+p {
+    font-family: 'Open Sans', sans-serif ;
+}
+
+   
+:root {
+    --main-color: #ef5744;
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.border-main-color {
+    border-color: var(--main-color) !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+
+}
+
+
+nav {
+    background-color: #262626;
+}
+
+.logo a {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+
+
+/*start header*/
+a.demos,
+a.purchase {
+    font-size: 20px !important;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.header a.demos:hover {
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+.header a.purchase:hover {
+    color: white !important;
+    border-color: white !important;
+}
+
+header {
+    background-image: url(../img/08hero.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+    background-repeat: no-repeat;
+
+}
+
+.header .title {
+    font-size: 75px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.header .title a {
+    font-size: 13px;
+    background-color: transparent !important;
+    border: 1px solid #bebebe;
+
+}
+
+/* start homepage*/
+.sec-page {
+    height: 75px;
+    position: relative;
+    font-size: 100px;
+    color: #0e0e0e;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.sec-page .sec-home {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
+
+.sec-line {
+    width: 13px;
+    height: 4px;
+    background-color: #ef5744;
+    margin: 32px auto 25px;
+    display: block;
+    position: relative;
+}
+.sec-line::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #ef5744;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    border-radius: 50%;
+}
+.sec-line::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #ef5744;
+    position: absolute;
+    right: -3px;
+    top: 0;
+    border-radius: 50%;
+}
+
+.sec-info {
+    text-align: center;
+    padding: 0 24%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    color: #cccccc;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/**/
+
+
+/*demos*/
+
+.team-element.team {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.block {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    -webkit-transform: perspective(2000px);
+    transform: perspective(2000px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.block.index-intro .number {
+    position: relative;
+}
+
+.block.index-intro .number span.bg-number {
+    font-size: 65px;
+    line-height: 50px;
+    color: #1f1f1f;
+    font-weight: bolder;
+    -webkit-text-stroke: 3px #1f1f1f;
+    letter-spacing: 7px;
+}
+
+.block.index-intro .number h4.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/**/
+
+
+/*intro*/
+.lower-title-block {
+    transform: rotate(-90deg) translateX(50%) translateY(0);
+}
+
+
+.lower-title-block .lower-title {
+    font-size: 81px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 3px #a4a4a4;
+    opacity: 0.5;
+}

@@ -1,0 +1,287 @@
+body {
+    overflow: hidden;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.loader, .loader:before, .loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  animation-fill-mode: both;
+  animation: bblFadInOut 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #FFF;
+  font-size: 7px;
+  position: relative;
+  text-indent: -9999em;
+  transform: translateZ(0);
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+
+@keyframes bblFadInOut {
+  0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
+  40% { box-shadow: 0 2.5em 0 0 }
+}
+.loading{
+    transition: .5s opacity ;
+    -webkit-transition: .5s opacity ;
+    -moz-transition: .5s opacity ;
+    -ms-transition: .5s opacity ;
+    -o-transition: .5s opacity ;
+} 
+
+
+
+/* side */
+
+/* start drop down */
+.nav-head .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    left: 100px;
+    top: 10px;
+    width: 200px;
+
+}
+.nav-head .dropdown-menu.dr2 {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    left: 100px;
+    top: 10px;
+    width: 200px;
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+.nav-head .dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-head .nav li {
+    margin-right: 10px;
+}
+
+
+
+/* end drop down*/
+
+.nav-head {
+        background-color: #111;
+        width: 150px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        -webkit-transform: translateX(-100%) translateZ(30px);
+        transform: translateX(-100%) translateZ(30px);
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        z-index: 999999999999;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    
+}
+.title .purchase {
+    color: var(--main-color)!important;
+}
+
+
+.nav-head li a {
+    transition: all ease 0.3s;
+}
+
+.nav-head li {
+    transition: all ease 0.3s;
+}
+
+.nav-head li:hover {
+    color: var(--main-color) !important;
+}
+
+.nav-head li:hover i {
+    color: var(--main-color) !important;
+}
+
+
+.h:hover {
+    color: var(--main-color) !important;
+}
+
+
+
+.side {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 70px;
+    background-color: #111;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 -1px 17px 1px rgba(0, 0, 0, .09);
+    text-align: center;
+    line-height: 20px;
+    font-size: 22px;
+    z-index: 111;
+
+}
+
+.switch-content {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.switch-item {
+    height: 4px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.switch-item:nth-child(1) {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.switch-item:nth-child(2) {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+
+.switch-item:nth-child(3) {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.side .switch-content:hover .switch-item:nth-child(1) {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.side .switch-content:hover .switch-item:nth-child(2) {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.side .switch-content:hover .switch-item:nth-child(3) {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.w {
+    padding: 25px;
+    position: fixed;
+    left: -164px;
+    top:-1%;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+    transform: rotate(-90deg) translateX(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate(-90deg) translateX(0);
+    -moz-transform: rotate(-90deg) translateX(0);
+    -ms-transform: rotate(-90deg) translateX(0);
+    -o-transform: rotate(-90deg) translateX(0);
+
+}
+
+.w img {
+    width: 110px;
+}
+
+.nav-list {
+    position: absolute;
+    bottom: 0;
+    left: 26px;
+}
+
+.nav-list i {
+    color: #d1d1d1;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*smothnes*/
+@keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+        -ms-transform: translatey(-10px);
+}
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+  }
+  .in-down {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 5s;
+  }

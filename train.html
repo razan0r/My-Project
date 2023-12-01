@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <!-- fontawsome css-->
+    <link rel="stylesheet" href="vendor/fontawsome/all.min.css">
+    <!-- custom css-->
+    <link rel="stylesheet" href="assets/css/style4.css">
+    <link rel="stylesheet" href="assets/css/com.mini.css">
+    <link rel="stylesheet" href="assets/css/media.mini.css">
+
+
+</head>
+
+<body class="position-relative">
+    <div id="vid"
+    class="vid position-absolute z-3 vh-100 w-100 text-center align-items-center overflow-hidden  d-none position-relative">
+    <i class="fa-solid fa-xmark position-absolute fs-1"></i>
+    <iframe src="assets/video/education.mp4" frameborder="0" class="h-75 w-75 "></iframe>
+</div>
+    <div class="loading bg-black position-fixed vh-100 w-100 z-2 d-flex justify-content-center align-items-center">
+        <span class="loader"></span>
+    </div>
+    <!-- header section -->
+    <div class="navs action">
+        <div class="side   z-3" id="side">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <a class="switch-content " id="switch-content">
+                    <span class="switch-item"></span>
+                    <span class="switch-item"></span>
+                    <span class="switch-item"></span>
+                </a>
+            </div>
+            <div class="w ">
+                <a href="#"> <img src="assets/img/logotype-dark.png" alt="logotype-dark" class="img-fluid ">
+                </a>
+            </div>
+            <ul class="list-unstyled nav-list p-0 m-0 " id="d">
+                <li><i class="fa-brands fa-dribbble"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+        <div class="nav-head  z-3" id="nav-head">
+            <div class="d-flex align-items-center justify-content-center h-100 text-white">
+                <ul class="list-unstyled terse-navbar nav ps-4 ">
+                    <li class="dropdown pt-3 w-100">
+                        <a href="#" class="big-nav h ">home</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown-menu list-unstyled  ">
+                            <li>
+                                <a href="homepage-GYM.html" class="h "> homepage-GYM</a>
+                            </li>
+                            <li>
+                                <a href="homepage-Education.html" class="h ">homepage-Education</a>
+                            </li>
+                            <li>
+                                <a href="homepage-Music.html" class="h ">homepage-Music</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown pt-3 w-100">
+                        <a href="#" class="big-nav  h">inner page</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="dropdown-menu dr2 list-unstyled  text-white px-2">
+                            <li>
+                                <a href="about.html" class="h">about</a>
+                            </li>
+                            <li>
+                                <a href="service.html" class="h">service</a>
+                            </li>
+                            <li>
+                                <a href="portfolio.html" class="h">portfolio</a>
+                            </li>
+                            <li>
+                                <a href="team.html" class="h">team</a>
+                            </li>
+                            <li>
+                                <a href="news.html" class="h">news</a>
+                            </li>
+                            <li>
+                                <a href="news-content.html" class="h">news-content</a>
+                            </li>
+                            <li>
+                                <a href="projects.html" class="h">project</a>
+                            </li>
+                            <li>
+                                <a href="schedule.html" class="h">schedule</a>
+                            </li>
+                            <li>
+                                <a href="workout.html" class="h">workout</a>
+                            </li>
+                            <li>
+                                <a href="404-error.html" class="h">404-page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pt-3 ">
+                        <a href="contact.html" class="big-nav text-white h">contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="list-unstyled nav-list p-0 m-0 text-white">
+                <li><i class="fa-brands fa-dribbble me-2 "></i> dribble </li>
+                <li><i class="fa-brands fa-twitter me-2"></i> twitter </li>
+                <li><i class="fa-brands fa-instagram me-2"></i> instagram </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="carouselExampleRide" class="carousel slide pointer-event" data-bs-ride="true">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="img img-fluid">
+                    <div class="container vh-100">
+                        <div class="text-content d-flex align-items-start flex-column justify-content-end">
+                            <span class="title-home">
+                                for gifted <br> children
+                            </span>
+                            <a class="btn-default active toclass" href="#">to classroom</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="imgs img-fluid">
+                    <div class="container vh-100 ">
+                        <div class="text-content d-flex align-items-start flex-column justify-content-end">
+                            <span class="title-home">
+                                for gifted <br> children
+                            </span>
+                            <a class="btn-default active toclass" href="#">to classroom</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- end header section-->
+    <!-- start course -->
+    <section class="bg-black course py-5 ps-5">
+        <div class="container">
+            <div class="sec-title-block text-center">
+                <span class="sec-page">
+                    course
+                    <span class="sec-home text-white w-75">
+                        Popular Courses
+                    </span>
+                </span>
+                <span class="sec-line"></span>
+                <div>
+                    <span class="sec-info pt-1 pb-5 d-inline-block">
+                        Quibu Sdam Sequi Ill Um Assum Enda Fac Ere Nos Trum Cons Ect Etur Adipi Sicing Elit. Dis Tinctio
+                    </span>
+                </div>
+            </div>
+            <div class="row in-down row-gap-3">
+                <div class="col-lg-6 position-relative">
+                    <div class="position-relative overflow-hidden pr">
+                        <div class=" overflow-hidden">
+                            <img src="assets/img/banner1.jpg" alt="banner1" class="img-fluid">
+                        </div>
+                        <div class="edu-text">
+                            <span class="badge pink">free</span>
+                            <h4 class="w-title">Germany Foundation Document</h4>
+                            <a href="#" class="btn-default">view courses</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-lg-6">
+                    <div class="position-relative overflow-hidden pr">
+                        <div class=" overflow-hidden">
+                            <img src="assets/img/banner2.jpg" alt="banner2" class="img-fluid">
+                            <div class="edu-text">
+                                <span class="badge orange">new</span>
+                                <h4 class="w-title">Online Courses From Eduka University</h4>
+                                <a href="#" class="btn-default">view courses</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-book"></i>
+                            <h4 class="w-title">Data Science</h4>
+                            <p class="w-info">Data is Everything</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-brush"></i>
+                            <h4 class="w-title">Business</h4>
+                            <p class="w-info">improve business</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <h4 class="w-title">Art &amp; Design</h4>
+                            <p class="w-info">Fun &amp; Challenging</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-golf-ball-tee"></i>
+                            <h4 class="w-title">Lifestyle</h4>
+                            <p class="w-info">New Skills, New You</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-crown"></i>
+                            <h4 class="w-title">marketing</h4>
+                            <p class="w-info">improve business</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-chart-column"></i>
+                            <h4 class="w-title">Finance</h4>
+                            <p class="w-info">Fun &amp; Challenging</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-seedling"></i>
+                            <h4 class="w-title">Health</h4>
+                            <p class="w-info">Invest to Your Body</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="inview-element inview">
+                        <div class="widget-block course threeD">
+                            <i class="fa-solid fa-leaf"></i>
+                            <h4 class="w-title">Music</h4>
+                            <p class="w-info">Major or Minor</p>
+                            <a href="#" class="join-course ">join course</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-lg-12">
+                    <div class="inview-element inview">
+                        <div class="anchor text-center">
+                            <a href="#" class="btn-default">all courses</a>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+            </div>
+        </div>
+        <!--start vedio -->
+    </section>
+
+
+    <section class="video bg-black py-5 ps-5" id="video"> 
+        <div class="container">
+            <div class="sec-title-block text-center">
+                <span class="sec-page">
+                    videos
+                    <span class="sec-home text-white w-75">
+                        Video Tutorial
+                    </span>
+                </span>
+                <span class="sec-line"></span>
+                <div>
+                    <span class="sec-info pt-1 pb-5 d-inline-block">
+                        You Don't Have To Stru Ggle Alone, You've Got
+                        Our Assis Tance And Help.
+                    </span>
+                </div>
+            </div>
+
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="true" data-bs-interval="2000">
+            
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="row in-down ">
+                            <div class="col-lg-6 ">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos3.jpg" alt="صورة فتاة"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer">
+                                    <span class="badge active z-1">psychology</span>
+                                    <a href="#" class="teacher z-1">
+                                        <img src="assets/img/user3.png" alt="teacher user3">
+                                        <h5 class="teacher-name">Sakinat</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play z-1"></i>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6 delet">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos4.jpg" alt=" صورة صف طلابي"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer2 ">
+                                    <span class="badge active">art &amp; design</span>
+                                    <a class="teacher" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user1.png" alt="teacher user1">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row in-down ">
+                            <div class="col-lg-6 ">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos4.jpg" alt=" صورة صف طلابي"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer">
+                                    <span class="badge active z-1">art &amp; design</span>
+                                    <a class="teacher z-1" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user1.png" alt="teacher user1">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+
+                                    <i class="fa-solid fa-play z-1"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 delet">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos1.jpg" alt=" صورة طالب"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer2 ">
+                                    <span class="badge active">art &amp; design</span>
+                                    <a class="teacher" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user1.png" alt="teacher user1">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play"></i>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row in-down ">
+                            <div class="col-lg-6 ">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos1.jpg" alt=" صورة طالب"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer">
+                                    <span class="badge active z-1">art &amp; design</span>
+                                    <a class="teacher z-1" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user1.png" alt="teacher user1">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play z-1"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 delet">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos2.jpg" alt=" صورة طالبين"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer2 ">
+                                    <span class="badge active">art &amp; design</span>
+                                    <a class="teacher" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user2.png" alt="teacher user2">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="row in-down ">
+                            <div class="col-lg-6 ">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos2.jpg" alt=" صورة طالبين"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer">
+                                    <span class="badge active z-1">art &amp; design</span>
+                                    <a class="teacher z-1" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user2.png" alt="teacher user2">
+                                        <h5 class="teacher-name">aDesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play z-1"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 delet">
+                                <div class="overflow-hidden">
+                                    <img src="assets/img/edu-videos3.jpg" alt=" صورة فتاة"
+                                        class="img-fluid b-rad gap-1 ">
+                                </div>
+                                <div class="bg-half-layer2 ">
+                                    <span class="badge active">art &amp; design</span>
+                                    <a class="teacher" draggable="true" data-href="#" href="#">
+                                        <img src="assets/img/user1.png" alt="teacher user1">
+                                        <h5 class="teacher-name">Mosaicdesign</h5>
+                                    </a>
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="left carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="left carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class=" right carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="right carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+
+
+    <!-- start Events-->
+    <section class="Events bg-black py-5 ps-5">
+        <div class="container">
+            <div class="sec-title-block text-center">
+                <span class="sec-page">
+                    Events
+                    <span class="sec-home text-white w-75">
+                        Current Events
+                    </span>
+                </span>
+                <span class="sec-line"></span>
+                <div>
+                    <span class="sec-info pt-1 pb-5 d-inline-block">
+                        We Found 13 Events Available For You.
+                    </span>
+                </div>
+            </div>
+            <div class="row in-down">
+                <div class="col-xl-6 col-lg-12">
+                    <div class="inview-element inview">
+                        <div class="widget-block event position-relative">
+                            <div class="event-items-block">
+                                <span class="event-item event-day first-event">jun-14, 2022</span>
+                                <span class="event-item event-time average-event">11:00 am - 14:00 pm</span>
+                                <span class="event-item event-address last-event">France, Paris</span>
+                            </div>
+                            <h4 class="w-title">Digital transformation conference</h4>
+                            <div class="join-icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-plus join"></i>
+                                    <span class="num text-main-color" data-val="32">0</span>
+                                </a>
+                            </div>
+                            <div class="img1 join-users-ex j-u-e-first">
+                            </div>
+                            <div class="img2 join-users-ex j-u-e-second"></div>
+                            <div class="event-footer">
+                                <a href="#" class="join-course  text-main-color">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-6 col-lg-12">
+                    <div class="inview-element inview">
+                        <div class="widget-block event position-relative">
+                            <div class="event-items-block">
+                                <span class="event-item event-day first-event">jun-14, 2022</span>
+                                <span class="event-item event-time average-event">11:00 am - 14:00 pm</span>
+                                <span class="event-item event-address last-event">France, Paris</span>
+                            </div>
+                            <h4 class="w-title">World education day conference</h4>
+                            <div class="join-icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-plus join"></i>
+                                    <span class="num text-main-color" data-val="23">0</span>
+                                </a>
+                            </div>
+                            <div class="img1 join-users-ex j-u-e-first">
+                            </div>
+                            <div class="img2 join-users-ex j-u-e-second"></div>
+                            <div class="event-footer">
+                                <a href="#" class="join-course text-main-color ">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-6 col-lg-12">
+                    <div class="inview-element inview">
+                        <div class="widget-block event position-relative">
+                            <div class="event-items-block">
+                                <span class="event-item event-day first-event">jun-14, 2022</span>
+                                <span class="event-item event-time average-event">11:00 am - 14:00 pm</span>
+                                <span class="event-item event-address last-event">France, Paris</span>
+                            </div>
+                            <h4 class="w-title">Foundations of global health</h4>
+                            <div class="join-icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-plus join"></i>
+                                    <span class="num text-main-color" data-val="46">0</span>
+                                </a>
+                            </div>
+                            <div class="img1 join-users-ex j-u-e-first">
+                            </div>
+                            <div class="img2 join-users-ex j-u-e-second"></div>
+                            <div class="event-footer">
+                                <a href="#" class="join-course text-main-color">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+                <div class="col-xl-6 col-lg-12">
+                    <div class="inview-element inview">
+                        <div class="widget-block event position-relative">
+                            <div class="event-items-block">
+                                <span class="event-item event-day first-event">jun-14, 2022</span>
+                                <span class="event-item event-time average-event">11:00 am - 14:00 pm</span>
+                                <span class="event-item event-address last-event">France, Paris</span>
+                            </div>
+                            <h4 class="w-title">Business creativity workshops</h4>
+                            <div class="join-icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-plus join"></i>
+                                    <span class="num text-main-color" data-val="16">0</span>
+                                </a>
+                            </div>
+                            <div class="img1 join-users-ex j-u-e-first">
+                            </div>
+                            <div class="img2 join-users-ex j-u-e-second"></div>
+                            <div class="event-footer">
+                                <a href="#" class="join-course text-main-color">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- / col -->
+            </div>
+        </div>
+    </section>
+    <!--start Prices-->
+    <section class="Prices bg-black ps-5">
+        <div class="container">
+            <div class="sec-title-block text-center">
+                <span class="sec-page">
+                    Price
+                    <span class="sec-home text-white w-75">
+                        our Prices
+                    </span>
+                </span>
+                <span class="sec-line"></span>
+                <div>
+                    <span class="sec-info pt-1 pb-5 d-inline-block">
+                        Quibu Sdam Sequi Ill Fac Ere Nos Trum Cons Ect Etur Adipi Sicing Elit. Dis Tinctio
+                    </span>
+                </div>
+            </div>
+            <!-- bootstrap -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active w-title small text-main-color " id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true">monthly plan</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link w-title small " id="profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                        aria-selected="false">annual plan</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row in-down">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="inview-element inview">
+                                <div class="widget-block price threeD  text-center">
+                                    <div class="price-head">
+                                        <h4 class="w-title">free</h4>
+                                        <h2 class="price-number  text-main-color">
+                                            <span>0</span>
+                                            <span class="currency">$</span>
+                                        </h2>
+                                    </div>
+                                    <ul class="list-unstyled price-body">
+                                        <li>
+                                            <p class="w-sub-title">social media</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">web banners</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">album covers</p> <i
+                                                class="fa-solid fa-xmark-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">great cards</p> <i
+                                                class="fa-solid fa-xmark-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">core features</p> <i
+                                                class="fa-solid fa-xmark-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn-default">purchase</a>
+                                </div>
+                            </div>
+                        </div><!-- / col -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="inview-element inview">
+                                <div class="widget-block price threeD text-center">
+                                    <div class="price-head">
+                                        <h4 class="w-title">premium</h4>
+                                        <h2 class="price-number text-main-color">
+                                            <span class="num" data-val="55">0</span>
+                                            <span class="currency">$</span>
+                                        </h2>
+
+                                    </div>
+
+                                    <ul class="list-unstyled price-body">
+                                        <li>
+                                            <p class="w-sub-title">social media</p> <i
+                                                class="lni lni-checkmark-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">web banners</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">album covers</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">great cards</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">core features</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn-default  ">purchase</a>
+                                </div>
+                            </div>
+                        </div><!-- / col -->
+                        <div class="col-lg-4 col-md-12">
+                            <div class="inview-element inview">
+                                <div class="widget-block price threeD text-center">
+                                    <div class="price-head">
+                                        <h4 class="w-title">premium</h4>
+                                        <h2 class="price-number text-main-color ">
+                                            <span class="num" data-val="46">0</span>
+                                            <span class="currency">$</span>
+                                        </h2>
+                                    </div>
+                                    <ul class="list-unstyled price-body">
+                                        <li>
+                                            <p class="w-sub-title">social media</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">web banners</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">album covers</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">great cards</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">core features</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn-default">purchase</a>
+                                </div>
+                            </div>
+                        </div><!-- / col -->
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row in-down">
+                        <div class="col-lg-4 col-md-6 offset-lg-2 offset-md-0">
+                            <div class="inview-element inview">
+                                <div class="widget-block price threeD text-center">
+                                    <div class="price-head">
+                                        <h4 class="w-title">free</h4>
+                                        <h2 class="price-number text-main-color">
+                                            <span>0</span>
+                                            <span class="currency">$</span>
+                                        </h2>
+                                    </div>
+                                    <ul class="list-unstyled price-body">
+                                        <li>
+                                            <p class="w-sub-title">social media</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">web banners</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">album covers</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">great cards</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li class="close">
+                                            <p class="w-sub-title">core features</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn-default ">purchase</a>
+                                </div>
+                            </div>
+                        </div><!-- / col -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="inview-element inview">
+                                <div class="widget-block price threeD text-center">
+                                    <div class="price-head">
+                                        <h4 class="w-title">premium</h4>
+                                        <h2 class="price-number text-main-color">
+                                            <span class="num" data-val="55">0</span>
+                                            <span class="currency">$</span>
+                                        </h2>
+                                    </div>
+                                    <ul class="list-unstyled price-body">
+                                        <li>
+                                            <p class="w-sub-title">social media</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">web banners</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">album covers</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">great cards</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                        <li>
+                                            <p class="w-sub-title">core features</p> <i
+                                                class="fa-solid fa-check-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn-default ">purchase</a>
+                                </div>
+                            </div>
+                        </div><!-- / col -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- start footer-->
+    <section class="footer py-5 ps-5">
+        <section class="sec1 position-relative py-5 ps-5">
+            <div class="img1">
+            </div>
+            <div class="img2">
+            </div>
+            <div class="container">
+                <div class="row in-down d-flex align-items-center ">
+                    <div class="col-lg-7 col-md-12 z-3 pb-md-4 pb-sm-4">
+                        <h3 class="text-white"> Would you like more information or do you have a question? </h3>
+                    </div>
+                    <div class="col-lg-5 col-md-12  z-3">
+                        <div class=" d-flex justify-content-end d">
+                            <a href="#" class="btn-default ">contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <span class="line"></span>
+    <section class="sec2 py-5 ps-5">
+        <div class="container">
+            <div class="row in-down d-flex justify-content-around justify-content-md-center">
+                <div class="col-md-6  d-flex justify-content-lg-start justify-content-center ">
+                    <ul>
+                        <li class="fw-bold">by phone :</li>
+                        <li><a href="tel:998911479823"><i class="fa-solid fa-phone text-white"></i></a> +2003-1116
+                        </li>
+                        <li><a href="tel:998911479823""><i class=" fa-solid fa-phone text-white"></i></a> +2004-0823
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 ">
+                    <div class=" d-flex justify-content-lg-end  justify-content-center">
+                        <p>&copy; 2021 Terse is Proudly Powered by <span class="text-main-color">mosaicdesign</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
